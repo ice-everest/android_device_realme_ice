@@ -14,6 +14,16 @@ $(call inherit-product, device/realme/ice/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 
+# Boot Animation Resolution
+TARGET_BOOT_ANIMATION_RES := 1080
+
+# Everest Maintainer Stuff
+EVEREST_MAINTAINER := Vimal😊
+
+# QuickSwitch Config
+TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := true
+
 PRODUCT_NAME := lineage_ice
 PRODUCT_DEVICE := ice
 PRODUCT_MANUFACTURER := realme
